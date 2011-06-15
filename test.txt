@@ -1,0 +1,81 @@
+1: Assign an integer to the variable foo
+======
+foo = 1
+======
+
+2: Assign a float to a variable
+======
+foo = 1.1
+======
+
+3: Assign a float to the variable bar
+======
+bar = 1.1
+======
+
+4: Assign a dictionary to the variable baz
+======
+baz = {'foo':1.1, 'bar':2.2} 
+======
+
+5: Assign a list to a variable
+======
+x = [1, 2, 3, 4]
+======
+
+6: Assign a string to a variable
+======
+hi = "whee"
+======
+
+
+7: Print the methods for an int
+======
+x = 1
+print dir(x)
+======
+
+
+8: Assign the list *[1,2,"three", "four"]* to the variable foobar and print the third item
+======
+foobar = [1, 2, "three", "four"]
+print foobar[2]
+======
+
+9: Use a for loop to print each item from the list used above
+======
+foobar = [1, 2, "three", "four"]
+for i in foobar:
+print i
+======
+
+10: Use a for loop to iterate over the list *[1,2,3,1,45,6,1,7,8,1,8,5,1,4,7,8,1]* and print "foobar" for every # 1
+======
+d = [1,2,3,1,45,6,1,7,8,1,8,5,1,4,7,8,1]
+for i in d:
+	if i != 1:
+		print i
+	if i == 1:
+		print "foobar"
+======
+
+11: Assign the dictionary *{"joel": "cool, "oscar": "awesome", "dog":2, 4:"cat"}* to the variable foo and print the 2nd item
+======
+x = {"joel":"cool", "oscar": "awesome", "dog":2, 4:"cat"}
+print x["oscar"]
+======
+
+12: Use a while loop to count to 10
+======
+count = 0
+while (count < 10):
+	count = count + 1
+	print count
+======
+
+BONUS: If a = 5 and b = 3 how would you switch the values using one line of code
+EXAMPLE: if a = 3 and b = 2 the output would mean that a would = 2 and b would = 3
+======
+a, b = 5, 3
+a, b = b, a
+======
