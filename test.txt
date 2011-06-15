@@ -42,21 +42,21 @@ foobar = [1, 2, "three", "four"]
 print foobar[2]
 ======
 
-X9: Use a for loop to print each item from the list used above
+9: Use a for loop to print each item from the list used above
 ======
 foobar = [1, 2, "three", "four"]
 for i in foobar:
-print i
+    print i
 ======
 
-X10: Use a for loop to iterate over the list *[1,2,3,1,45,6,1,7,8,1,8,5,1,4,7,8,1]* and print "foobar" for every # 1
+10: Use a for loop to iterate over the list *[1,2,3,1,45,6,1,7,8,1,8,5,1,4,7,8,1]* and print "foobar" for every # 1
 ======
 d = [1,2,3,1,45,6,1,7,8,1,8,5,1,4,7,8,1]
 for i in d:
-	if i != 1:
-		print i
-	if i == 1:
+    if  i == 1:
 		print "foobar"
+    else:
+        print i
 ======
 
 11: Assign the dictionary *{"joel": "cool, "oscar": "awesome", "dog":2, 4:"cat"}* to the variable foo and print the 2nd item
