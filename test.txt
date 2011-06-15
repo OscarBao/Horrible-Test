@@ -15,7 +15,7 @@ bar = 1.1
 
 4: Assign a dictionary to the variable baz
 ======
-baz = {'foo':1.1, 'bar':2.2} 
+baz = {'foo':1.1, 'bar':2.2}
 ======
 
 5: Assign a list to a variable
@@ -42,14 +42,14 @@ foobar = [1, 2, "three", "four"]
 print foobar[2]
 ======
 
-9: Use a for loop to print each item from the list used above
+X9: Use a for loop to print each item from the list used above
 ======
 foobar = [1, 2, "three", "four"]
 for i in foobar:
 print i
 ======
 
-10: Use a for loop to iterate over the list *[1,2,3,1,45,6,1,7,8,1,8,5,1,4,7,8,1]* and print "foobar" for every # 1
+X10: Use a for loop to iterate over the list *[1,2,3,1,45,6,1,7,8,1,8,5,1,4,7,8,1]* and print "foobar" for every # 1
 ======
 d = [1,2,3,1,45,6,1,7,8,1,8,5,1,4,7,8,1]
 for i in d:
